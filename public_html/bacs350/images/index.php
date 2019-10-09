@@ -6,25 +6,29 @@
 
     $site_title = 'UNC BACS 350';
     
-    $page_title = "My Projects";
+    $page_title = "Design Patterns";
     
     $content = '
+    
         <p>
             <a href="..">Home</a>
         </p>
         <p> 
-            Projects in BACS 350.
+            Design patterns learned in BACS 350.
         </p>
         
         <ul>
             <li>
-                <a href="01">Project #1 - Setup Web Hosting</a>
+                <a href="include">Include Pattern</a>
             </li>
             <li>
-                <a href="02">Project #2 - Page Template</a>
+                <a href="header">Header/Footer Pattern</a>
             </li>
-             <li>
-                <a href="03">Project #3 - Superheros</a>
+            <li>
+                <a href="page_template">Page Template Pattern</a>
+            </li>
+            <li>
+                <a href="render_page">Render Page Pattern</a>
             </li>
         </ul>
     ';

@@ -10,6 +10,9 @@
     
     $content = '
         <p> 
+            <img src="/bacs350/pattern/render_page/lauren.jpg" alt="Lauren Simms" width = "200px"></img>
+        </p>
+        <p> 
             This page is a demonstration of the pattern in use.
         </p>
         <p> 
