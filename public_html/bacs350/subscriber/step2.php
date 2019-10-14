@@ -18,7 +18,9 @@
     $list = render_subscriber_list($subscribers);
 
     echo $list;
+    require 'views.php';
     
 ?>
+
 
 <p><b>Success !!</b></p>

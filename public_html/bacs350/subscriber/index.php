@@ -18,7 +18,6 @@
 
 
 
-<p><b>Success !!</b></p>
 
 <h2>Step 1 - Simple page</h2>
 
@@ -40,6 +39,7 @@
 <p>
     <a href="step2.php">Subscribers Page</a>
 </p>
+
  ';
  // Connect to Bluehost database 
     function subscriber_database($dbname, $username, $password) {
@@ -141,10 +141,12 @@
 
     
 
-    include '../style.css';
+   
     include '../views.php';
     
     echo render_page($site_title, $page_title, $content);
     echo $list;
+ 
+$content = '<p><b>Success !!</b></p>';
 
 ?>

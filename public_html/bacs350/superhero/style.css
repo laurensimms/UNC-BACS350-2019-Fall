@@ -1,0 +1,118 @@
+https://unco-bacs.org/bacs_350/project/02/styles.cssbody {
+    font-size: 18px;
+    color: #0E3D65;
+}
+
+h1, h2, h3 {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #F6B018;
+    font-size: 300%;
+}
+
+h2 {
+    color: #0E3D65;
+    background-color: #F6B018;
+    border: 2px solid #0E3D65;
+    text-align: center;
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+header {
+    border: 2px solid  ivory;
+    background-color: darkgrey;
+    color: #F6B018;
+    padding: .5em;
+}
+
+header a {
+    color: darkgrey;
+}
+
+header a:hover {
+    color: lightslategray;
+}
+
+header h1 {
+    color: whitesmoke;
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+    box-shadow: none;
+    text-align: left;
+    padding: 0;
+}
+
+header h2 {
+    color: white;
+    background-color: darkgrey;
+    border: none;
+    margin-left: 50px;
+    font-size: 120%;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+}
+
+header .logo {
+    box-shadow: none;
+    border: white solid 4px;
+    border-radius: 20%;
+    /*margin: 0px 20px;*/
+    padding: 5px;
+    width: 240px;
+    height: 280px;
+}
+
+header img {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card {
+    margin: 20px;
+    border: 1px solid blue;
+    width: 40%;
+}
+
+.card-header {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: palevioletred;
+}
+
+/* this is the card section*/
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+      border-radius: 5px; /* 5px rounded corners */
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+img {
+  border-radius: 5px 5px 0 0;
+}
