@@ -1,13 +1,5 @@
 body {
     padding: 2em;
-    color: #81BADC;
-    font:veranda;
-    background-color:darkgray;
-}
-
-main {
-    font:verdana; 
-    color:#0E3D65;
 }
 
 
@@ -16,11 +8,11 @@ h1 {
 }
 
 h2 {
-    color: #C6BCBC;
+    color: #F6B018;
 }
 
 hr {
-    border: 1px solid #F4CBCB;
+    border: 1px solid #F6B018;
     width: 80%;
     margin: 30px auto;
 }
@@ -39,13 +31,11 @@ pre {
 .card {
     margin: 20px;
     border: 1px solid #0E3D65;
-    font:veranda;
 }
 
 .card-header {
     padding: 10px;
     font-weight: bold;
-    color: whitesmoke;
-    background-color: #C6BCBC;
-    font:veranda;
+    color: white;
+    background-color: #0E3D65;
 }

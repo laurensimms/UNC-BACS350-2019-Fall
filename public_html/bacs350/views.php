@@ -32,8 +32,8 @@
                                 <div class="logo col-sm-4">
                                     <div class="pull-right">
                                         <img class="img-rounded img-responsive" 
-                                        src="/bacs350/images/Bear.200.png" 
-                                        alt="UNC Bear" width="150px">
+                                        src="/bacs350/images/lauren.jpg" 
+                                        alt="UNC Bear" width="15%">
                                     </div>
                                 </div>
                             </div>

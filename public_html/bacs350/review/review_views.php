@@ -43,21 +43,21 @@
     // Create an HTML list on the output
     function render_reviews($reviews) {
         $html = '';
-            foreach($reviews as $row) {
-                $title = $row['title'];
-                $delete_href = "delete.php?id=$row[id]";
-                $edit_href = "update.php?id=$row[id]";
-                $body = "
-                    <p>Note #$row[id]. $title</p>
-                    <p>$row[body]</p>
-                    <p>
-                        <a class='button' href='$edit_href'>Edit</a>
-                        <a class='button' href='$delete_href'>Delete</a>
-                    </p>";
-                $html .= render_card($title, $body);
-            }
-            return $html;
+        foreach($reviews as $row) {
+            $title = $row['title'];
+            $delete_href = "delete.php?id=$row[id]";
+            $edit_href = "update.php?id=$row[id]";
+            $body = "
+                <p>Note #$row[id]. $title</p>
+                <p>$row[body]</p>
+                <p>
+                    <a class='button' href='$edit_href'>Edit</a>
+                    <a class='button' href='$delete_href'>Delete</a>
+                </p>";
+            $html .= render_card($title, $body);
         }
+        return $html;
+    }
 
 
     // Show form for adding a record

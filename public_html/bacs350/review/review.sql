@@ -3,7 +3,7 @@
 
 -- Database table
 
-/*CREATE TABLE reviews (
+CREATE TABLE reviews (
     id          int(3) NOT NULL AUTO_INCREMENT,
     designer    varchar(100) NOT NULL,
     url         varchar(200) NOT NULL,
@@ -11,7 +11,7 @@
     score       int(1)       NOT NULL,
     date        date         NOT NULL,
     PRIMARY KEY (id)
-);*/
+);
 
 
 -- Connection Settings  - PHP Variables 
@@ -25,7 +25,7 @@ $host = "localhost:$port";
 
 -- CREATE
 
-/*INSERT INTO reviews (designer, url, report, score, date) 
+INSERT INTO reviews (designer, url, report, score, date) 
 VALUES (:designer, :url, :report, :score, :date);
 
 
@@ -56,5 +56,5 @@ WHERE id = :id;
 
 -- DELETE
 
-DELETE from reviews WHERE id = :id;*/
+DELETE from reviews WHERE id = :id;
 

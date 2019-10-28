@@ -16,17 +16,13 @@
     // Link to Home
     $home = '<a href=".">Other Documents</a>';
 
-    //link to docs 
-    $docs = '<a href="http://www.sistersimms.com/bacs350/docman/doc.php?doc=docs/ClassPrep.md">Class Prep Document</a>';
-    
+
     // Read Markdown Text from file
     $text = render_markdown($doc);
-    $content = render_card($doc, $text, $docs);
-  
-    
+    $content = render_card($doc, $text);
 
 
     // Display the HTML in the page
-    echo render_page('Laurens Notes', "Document Manager", $home . $content, $docs);
+    echo render_page('Seaman Notes', "Document Manager", $home . $content);
 
 ?>
