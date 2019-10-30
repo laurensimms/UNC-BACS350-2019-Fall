@@ -5,15 +5,13 @@
     require_once 'review_views.php';
     require_once 'review_db.php';
 
+    // Button to go to other views
+    $add_button = '<p><a class="button" href="insert.php">Add Review</a></p>';
 
     // List review records
     $list = render_reviews(list_reviews ($db));
-
     
-    // Button to go to other views
-    $add_button = '<p><a class="button" href="insert.php">Add Review</a></p>';  
-    
-    echo'<p> This does not work :(</p>';
+    //echo'<p> This does not work :(</p>';
 
     // Show the page
     $content = "$add_button $list";
