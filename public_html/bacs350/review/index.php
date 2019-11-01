@@ -4,16 +4,18 @@
     require_once 'views.php';
     require_once 'review_views.php';
     require_once 'review_db.php';
-
-    // Button to go to other views
-    $add_button = '<p><a class="button" href="insert.php">Add Review</a></p>';
+    
+    $intro = '<p> Press shift-refresh to see my style sheet at work :)</p>';
 
     // List review records
     $list = render_reviews(list_reviews ($db));
+
     
-    //echo'<p> This does not work :(</p>';
+    // Button to go to other views
+    $add_button = '<p><a class="button" href="insert.php">Add Review</a></p>';
+
 
     // Show the page
-    $content = "$add_button $list";
-    echo render_page('UNC BACS 350', "Project 9", $content);
+    $content = "$intro $add_button $list";
+    echo render_page('UNC BACS 350', "Project 9 - Design Reviews", $content);
 ?>

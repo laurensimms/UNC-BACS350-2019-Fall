@@ -19,9 +19,6 @@
         
         // Form view to add notes
         $add_form = add_review_form();
-        
-        // Button to clear
-        $clear_button = '<a class="button" href="delete.php">Reset Review</a>';
 
         
         // Display the HTML in the page
