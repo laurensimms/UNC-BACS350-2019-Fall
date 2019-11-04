@@ -12,6 +12,11 @@
         <p>
             <a href="..">Home</a>
         </p>
+        
+        <h3>
+            <a href="https://github.com/laurensimms/UNC-BACS350-2019-Fall/tree/master/public_html/bacs350">Laurens GitHub Repo</a>
+        </h3>
+        
         <p>
             <a href="https://shrinking-world.com/unc/bacs350">BACS 350 Home Page</a>
         </p>
