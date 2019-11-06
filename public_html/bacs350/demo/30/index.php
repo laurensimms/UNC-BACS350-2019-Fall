@@ -20,7 +20,7 @@
     $settings = array(
         "site_title" => "UNC BACS 350 Demo",
         "page_title" => "Demo 30 - MVC Design Pattern", 
-        "logo"       => "lauren.jpg",
+        "logo"       => "Bear.png",
         "style"      => 'style.css',
         "content"    => $content);
 
