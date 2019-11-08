@@ -1,68 +1,35 @@
-Building Your App
+About Lauren 
 
 * Project 11
-* Friday, Nov 16, 2018
+* Due Friday, Nov 08 2019
 * by Lauren Simms
 
 ![](lauren.jpg)
 
 --
 
-## Development Process
-* Create a page for the app
-* Customize general code to create new datatype
-* Debug one feature at a time
-* Fix before moving forward
+## About Lauren 
+* She is 23 yrs old 
+* She is from Lyons, CO
+* She graduates this December 
+* She likes to slackline and hammock
 
 --
 
-## Software Lifecycle
-* Requirements
-* Design
-* Code
-* Test
+## Her Jobs
+* She has 3 jobs
+    * Student Ambassador 
+    * Cyber Security Student    
+    * Information Security Intern 
 
 --
 
-## Data
-Review:
+## Her Hometown
+Lyons:
+* Gateway to the Rockies
+* 2000 People 
+* No franchise Law
 
-* date - date of last update
-* title - title of record
-* body - text for the record
-
---
-
-## Views
-* List
-* Details
-* Add
-* Edit
-* Delete
+![](lyons.jpg)
 
 --
-
-## Code structure
-* CRUD functions
-* View render functions
-* Controller that manages views
-* Page and view templates
-* Standard stylesheet
-
-
----
-
-
-# Testing
-* Try each feature interactively
-* Code a page with links for testing
-
---
-
-## Design Reviews
-* Published and share code
-* Gather feedback from Design Reviews
-* Fix issues that are found
-
-
-![](Bear.png)
