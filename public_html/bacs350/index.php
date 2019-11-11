@@ -65,13 +65,16 @@
                 }
 
             tr:nth-child(even) {
-              background-color: #dddddd;
+              background-color: #C6BCBC;}
+              
+            tr:nth-child(odd) {
+              background-color: white;
                 }
         </style>
         </head>
         <body>
         
-        <table style="width:75%%">
+        <table style="width:75%" align="center">
           <tr>
             <th>Project</th>
             <th>Link</th>
@@ -134,9 +137,21 @@
           </tr>
           <tr>
             <td>10</td>
-            <td><a href="/bacs350/slides.php">Project 10</a></td>
+            <td><a href="/bacs350/review/index.php">Project 10</a></td>
             <td><a href="https://shrinking-world.com/unc/bacs350/project/10">Project 10 Instructions Link</a></td>
             <td>Fri, Nov 01st</td>
+          </tr>
+           <tr>
+            <td>11</td>
+            <td><a href="/bacs350/slides/index.php">Project 11</a></td>
+            <td><a href="https://shrinking-world.com/unc/bacs350/project/11">Project 11 Instructions Link</a></td>
+            <td>Fri, Nov 8th</td>
+          </tr>
+            <tr>
+            <td>12</td>
+            <td><a href="/bacs350/index.php">Project 12</a></td>
+            <td><a href="https://shrinking-world.com/unc/bacs350/project/12">Project 12 Instructions Link</a></td>
+            <td>Fri, Nov 15th</td>
           </tr>
         </table>
         <p>            

@@ -23,17 +23,17 @@ footer {
 h1 {
     margin: 20px;
     padding: 30px;
-    color: #F6B018;
-    background-color: #0E3D65;
-    border: 5px solid #F6B018;
+    color: antiquewhite;
+    background-color: #C6BCBC;
+    border: 5px solid #717D7E;
     text-align: center;
     box-shadow: 2px 2px 5px gray;
 }
 
 h2 {
-    color: #0E3D65;
-    background-color: #F6B018;
-    border: 2px solid #0E3D65;
+    color: antiquewhite;
+    background-color: #C6BCBC;
+    border: 2px solid #C6BCBC;
     text-align: center;
     margin: 10px 20px;
     padding: 10px 20px;
@@ -47,23 +47,23 @@ h4 {
 }
 
 header {
-    border: 5px solid #F6B018;
-    background-color: #0E3D65;
+    border: 10px solid #717D7E;
+    background-color: #C6BCBC;
     font-family: sans-serif;
     padding: .5em;
 }
 
 header a {
-    color: white;
+    color: #717D7E;
 }
 
 header a:hover {
-    color: #F6B018;
+    color: #717D7E;
 }
 
 header h1 {
-    color: #F6B018;
-    border: none;
+    color: whitesmoke;
+    border: #717D7E;
     padding: 0;
     margin: 20px 0;
     box-shadow: none;
@@ -72,7 +72,7 @@ header h1 {
 
 header h2 {
     color: white;
-    background-color: #0E3D65;
+    background-color: #C6BCBC;
     box-shadow: none;
     text-align: left;
     margin: 0;
@@ -88,7 +88,7 @@ header img {
 
 
 hr {
-    border: 4px solid #F6B018;
+    border: 4px solid #717D7E;
 }
 
 input {
@@ -111,10 +111,10 @@ p {
 }
 
 pre {
-    border: 1px solid #F6B018;
-    border-left: 3px solid #F6B018;
-    border-right: 3px solid #F6B018;
-    background-color: #f0f0f0;
+    border: 1px solid #717D7E;
+    border-left: 3px solid #717D7E;
+    border-right: 3px solid #717D7E;
+    background-color: antiquewhite;
     margin-left: 3em;
     margin-right: 3em;
     padding: 10px 20px;
@@ -184,7 +184,7 @@ pre {
     margin: 5%;
     padding: 2em;
     box-shadow: 2px 2px 5px grey;
-    background-color: #eeeeee;
+    background-color: antiquewhite;
     border: 3px solid #0E3D65;
     border-radius: 10px;
 }

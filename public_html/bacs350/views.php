@@ -17,7 +17,7 @@
 
                     <link rel="icon" type="image/x-icon" href="/bacs350/favicon.ico">
                     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-                    <link rel="stylesheet" href="/bacs350/unc.css">
+                    <link rel="stylesheet" href="/bacs350/styles.css">
 
                 </head>
                 <body>
@@ -33,7 +33,7 @@
                                     <div class="pull-right">
                                         <img class="img-rounded img-responsive" 
                                         src="/bacs350/images/lauren.jpg" 
-                                        alt="UNC Bear" width="15%">
+                                        alt="Lauren" width="25%">
                                     </div>
                                 </div>
                             </div>
