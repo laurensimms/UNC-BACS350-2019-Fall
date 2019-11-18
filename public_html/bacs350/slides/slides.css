@@ -3,7 +3,7 @@
 ------------------------------*/
 
 p {
-    color: #C6BCBC;
+    color: #F6B018;
 }
 
 /* ------------------------------
@@ -11,12 +11,12 @@ p {
 ------------------------------*/
 
 .reveal li {
-    color: #717D7E;
+    color: #0E3D65;
     font-size: 90%;
 }
 
 .reveal li li {
-    color: #717D7E;
+    color: #F6B018;
 }
 
 .right {
@@ -33,19 +33,17 @@ p {
 .reveal h1 {
     text-transform: none;
     font-size: 120%;
-    color: #C6BCBC;
+    color: #0E3D65;
 }
 
 .reveal h2 {
     text-transform: none;
     font-size: 110%;
-    color: #C6BCBC;;
+    color: #F6B018;;
 }
 
 .reveal h3, .reveal h4 {
     text-transform: none;
-    color: #C6BCBC;
+    color: #0E3D65;
 }
-
-data-background { color:antiquewhite; }
 

@@ -38,6 +38,87 @@
             <li>
                 <a href="05">Lesson #5 - Render Page</a>
             </li>
+            <li>
+                <a href="06">Demo #6 - Setup Apache, MySQL, PHP</a>
+            </li>
+            <li>
+                <a href="07">Demo #7 - Card View</a>
+            </li>
+            <li>
+                <a href="08">Demo #8 - Reusable Page Template</a>
+            </li>
+            <li>
+                <a href="09">Demo #9 - Display PHP Source Code</a>
+            </li>
+            <li>
+                <a href="10">Demo #10 - Markdown</a>
+            </li>
+            <li>
+                <a href="11">Demo #11 - Document Viewer</a>
+            </li>
+            <li>
+                <a href="12">Demo #12 - Document Listing</a>
+            </li>
+            <li>
+                <a href="13">Demo #13 - Document Selector</a>
+            </li>
+            <li>
+                <a href="14">Demo #14 - Document Browser</a>
+            </li>
+            <li>
+                <a href="15">Demo #15 - Database</a>
+            </li>
+            <li>
+                <a href="16">Demo #16 - Database connect from PHP</a>
+            </li>
+            <li>
+                <a href="17">Demo #17 - List Database Records</a>
+            </li>
+            <li>
+                <a href="18">Demo #18 - Database CRUD</a>
+            </li>
+            <li>
+                <a href="19">Demo #19 - CRUD Functions</a>
+            </li>
+            <li>
+                <a href="20">Demo #20 - CRUD Views</a>
+            </li>
+            <li>
+                <a href="21">Demo #21 - Add Views</a>
+            </li>
+            <li>
+                <a href="22">Demo #22 - Edit Views</a>
+            </li>
+            <li>
+                <a href="23">Demo #23 - Page Logging</a>
+            </li>
+            <li>
+                <a href="24">Demo #24 - Review App</a>
+            </li>
+            <li>
+                <a href="25">Demo #25 - Avoid Page Caching</a>
+            </li>
+            <li>
+                <a href="26">Demo #26 - Page Template HTML</a>
+            </li>
+            <li>
+                <a href="27">Demo #27 - Component Templates</a>
+            </li>
+            <li>
+                <a href="29">Demo #29 - Complex Views</a>
+            </li>
+            <li>
+                <a href="30">Demo #30 - MVC Pattern</a>
+            </li>
+            <li>
+                <a href="31">Demo #31 - Slides</a>
+            </li>
+            <li>
+                <a href="32">Demo #32 - Notes MVC</a>
+            </li>
+            <li>
+                <a href="35">Demo #35 - User Authentication</a>
+            </li>
         </ul>
     ';
 

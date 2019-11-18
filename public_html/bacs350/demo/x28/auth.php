@@ -148,8 +148,8 @@
                     <p><label>Last Name:</label> &nbsp; <input type="text" name="last"></p>
                     <p><input type="submit" value="Sign Up" class="btn"/></p>
                     <input type="hidden" name="action" value="register">
-                    <input type="hidden" name="next" value="./' . $page . '">
-
+                    <input type="hidden" name="next" value="' . $page . '">
+                    
                 </form>
             </div>
             ';
@@ -183,5 +183,7 @@
             $_SESSION['USER'] = $email;
         }
     }
+
+
     
 ?>

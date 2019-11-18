@@ -15,31 +15,33 @@
 */
 
     require_once 'db.php';
+    require_once 'log.php';
+
     session_start ();
 
 
-    // Controller for user authentication
-    function handle_auth_actions() {
-        global $db;
-        $action = filter_input(INPUT_GET, 'action');
-        if ($action == 'signup') {
-            return sign_up_form();
-        }
-        if ($action == 'login') {
-            return login_form('private.php');
-        }
-        if ($action == 'logout') {
-            return logout('private.php?action=login');
-        }
-        
-        $action = filter_input(INPUT_POST, 'action');
-        if ($action == 'register') {
-            return register_user($db);
-        }
-        if ($action == 'validate') {
-            return validate($db);
-        }
-    }
+//    // Controller for user authentication
+//    function handle_auth_actions() {
+//        global $db;
+//        $action = filter_input(INPUT_GET, 'action');
+//        if ($action == 'signup') {
+//            return sign_up_form();
+//        }
+//        if ($action == 'login') {
+//            return login_form('private.php');
+//        }
+//        if ($action == 'logout') {
+//            return logout('private.php?action=login');
+//        }
+//        
+//        $action = filter_input(INPUT_POST, 'action');
+//        if ($action == 'register') {
+//            return register_user($db);
+//        }
+//        if ($action == 'validate') {
+//            return validate($db);
+//        }
+//    }
 
 
     // Check to see that the password in OK
@@ -148,7 +150,7 @@
                     <p><label>Last Name:</label> &nbsp; <input type="text" name="last"></p>
                     <p><input type="submit" value="Sign Up" class="btn"/></p>
                     <input type="hidden" name="action" value="register">
-                    <input type="hidden" name="next" value="./' . $page . '">
+                    <input type="hidden" name="next" value="' . $page . '">
 
                 </form>
             </div>
@@ -183,5 +185,7 @@
             $_SESSION['USER'] = $email;
         }
     }
+
+
     
 ?>
