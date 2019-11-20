@@ -4,9 +4,8 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #d7dde8, #757f9a);
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 article {
     border: 1px solid grey;
@@ -28,7 +27,7 @@ h1 {
     color: antiquewhite;
     background-color: #C6BCBC;
     border: 5px solid #717D7E;
-    text-align: center;
+    text-align: left;
     box-shadow: 2px 2px 5px gray;
 }
 
