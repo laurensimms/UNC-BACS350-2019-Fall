@@ -6,48 +6,22 @@
 
     $site_title = 'UNC BACS 350';
     
-    $page_title = "Lauren's Brain";
+    $page_title = "Lauren's Index Page";
     
     $content = '
-        <p>
-            <a href="..">Home</a>
-        </p>
         
-        <h3>
-            <a href="https://github.com/laurensimms/UNC-BACS350-2019-Fall/tree/master/public_html/bacs350">Laurens GitHub Repo</a>
-        </h3>
-        
-        <p>
-            <a href="https://shrinking-world.com/unc/bacs350">BACS 350 Home Page</a>
-        </p>
-        <li>
-            <a href="https://www.sistersimms.com/bacs350/skills/index.php">Laurens Skills Page</a>
-        </li>
-        <li> 
-            <a href="https://www.sistersimms.com/bacs350/docman/index.php">Laurens Docman Page</a>
-        </li>
-        <li> 
-            <a href="https://www.sistersimms.com/bacs350/planner/index.php">Laurens Planner Page</a>
-        </li>
-        <li> 
-            <a href="https://www.sistersimms.com/bacs350/superhero/index.php">Laurens Superhero Page</a>
-        </li>
-         <li> 
-            <a href="https://www.sistersimms.com/bacs350/subscriber/index.php">Laurens Subscriber Page</a>
-        </li>
-         <li> 
-            <a href="https://www.sistersimms.com/bacs350/notes/index.php">Laurens Notes Page</a>
-        </li>
-        
-        <ul>
-            <li>
-                <a href="demo">Code Demos</a>
-            </li>
-            <li>
-                <a href="pattern">Design Patterns</a>
-            </li>
-        </ul>
-        
+        <h3><a href="..">Home</a></h2>        
+        <h3> <a href="https://github.com/laurensimms/UNC-BACS350-2019-Fall/tree/master/public_html/bacs350">Laurens GitHub Repo</a></h3>       
+        <h3><a href="https://shrinking-world.com/unc/bacs350">BACS 350 Home Page</a></h3>       
+        <h3><a href="https://www.sistersimms.com/bacs350/skills/index.php">Laurens Skills Page</a></h3> 
+        <h3><a href="https://www.sistersimms.com/bacs350/docman/index.php">Laurens Docman Page</a></h3>
+        <h3><a href="https://www.sistersimms.com/bacs350/planner/index.php">Laurens Planner Page</a></h3>
+        <h3><a href="https://www.sistersimms.com/bacs350/superhero/index.php">Laurens Superhero Page</a></h3>
+        <h3><a href="https://www.sistersimms.com/bacs350/subscriber/index.php">Laurens Subscriber Page</a></h3>
+        <h3><a href="https://www.sistersimms.com/bacs350/notes/index.php">Laurens Notes Page</a></h3>
+        <h3><a href="demo">Code Demos</a></h3>
+        <h3><a href="pattern">Design Patterns</a></h3>
+             
         <!DOCTYPE html>
         <html>
         <head>
@@ -67,10 +41,7 @@
             tr:nth-child(even) {
               background-color: #C6BCBC;}
               
-            tr:nth-child(odd) {
-              background-color: white;
-                }
-        </style>
+    </style>
         </head>
         <body>
         

@@ -20,39 +20,43 @@ footer {
     text-align: center;
     margin: 2em;
     padding: 2em;
+    background: linear-gradient(to right, #d7dde8, #757f9a);
 }
 
 h1 {
     margin: 20px;
     padding: 30px;
     color: antiquewhite;
-    background-color: #C6BCBC;
-    border: 5px solid #717D7E;
     text-align: center;
     box-shadow: 2px 2px 5px gray;
 }
 
 h2 {
-    color: antiquewhite;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px gray;   
+}
+
+h3 {
     background-color: #C6BCBC;
     border: 2px solid #C6BCBC;
     text-align: center;
     margin: 10px 20px;
     padding: 10px 20px;
     box-shadow: 2px 2px 5px gray;
+    display: inline-block;
 }
-
-h3,
 h4 {
     margin: 10px 20px;
     padding: 10px 20px;
 }
 
 header {
-    border: 10px solid #717D7E;
-    background-color: #C6BCBC;
+    border: 10px solid white;
     font-family: sans-serif;
     padding: .5em;
+    background: linear-gradient(to right, #d7dde8, #757f9a);
 }
 
 header a {
@@ -116,7 +120,6 @@ pre {
     border: 1px solid #717D7E;
     border-left: 3px solid #717D7E;
     border-right: 3px solid #717D7E;
-    background-color: antiquewhite;
     margin-left: 3em;
     margin-right: 3em;
     padding: 10px 20px;
@@ -125,6 +128,7 @@ pre {
 
 /* ----------------------------------------------- */
 /* Classes */
+
 
 .btn-form {
     width: 200px;
