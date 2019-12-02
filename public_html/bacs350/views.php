@@ -33,7 +33,7 @@
                                     <div class="pull-right">
                                         <img class="img-rounded img-responsive" 
                                         src="/bacs350/images/lauren.jpg" 
-                                        alt="Lauren" width="25%">
+                                        alt="Lauren" width="75">
                                     </div>
                                 </div>
                             </div>

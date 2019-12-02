@@ -10,7 +10,7 @@
     
     $content = '
         
-        <h3><a href="..">Home</a></h2>        
+        <h3><a href="..">Home</a></h3>        
         <h3> <a href="https://github.com/laurensimms/UNC-BACS350-2019-Fall/tree/master/public_html/bacs350">Laurens GitHub Repo</a></h3>       
         <h3><a href="https://shrinking-world.com/unc/bacs350">BACS 350 Home Page</a></h3>       
         <h3><a href="https://www.sistersimms.com/bacs350/skills/index.php">Laurens Skills Page</a></h3> 
@@ -22,10 +22,10 @@
         <h3><a href="demo">Code Demos</a></h3>
         <h3><a href="pattern">Design Patterns</a></h3>
              
-        <!DOCTYPE html>
-        <html>
-        <head>
-        <style>
+        
+    <html>
+       <head>
+       <style>
             table {
               font-family: arial, sans-serif;
               border-collapse: collapse;
@@ -41,10 +41,12 @@
             tr:nth-child(even) {
               background-color: #C6BCBC;}
               
-    </style>
-        </head>
-        <body>
-        
+        </html>
+       </head>
+       </style>
+              
+      
+       
         <table style="width:75%" align="center">
           <tr>
             <th>Project</th>
@@ -124,7 +126,6 @@
             <td><a href="https://shrinking-world.com/unc/bacs350/project/12">Project 12 Instructions Link</a></td>
             <td>Fri, Nov 15th</td>
           </tr>
-           </tr>
             <tr>
             <td>13</td>
             <td><a href="/bacs350/index.php">Project 13</a></td>
