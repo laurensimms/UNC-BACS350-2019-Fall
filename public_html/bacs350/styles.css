@@ -6,7 +6,7 @@
 table {
     width:75%;
     text-align: center;
-    table-layout: auto;
+    style= float:right;
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 75%;

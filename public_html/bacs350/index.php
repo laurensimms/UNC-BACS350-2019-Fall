@@ -11,19 +11,19 @@
     $content = '
             
         <h4><a href="..">Home</a></h4>        
-        <h4> <a href="https://github.com/laurensimms/UNC-BACS350-2019-Fall/tree/master/public_html/bacs350">Laurens GitHub Repo</a></h4>       
+        <h4> <a href="https://github.com/laurensimms/UNC-BACS350-2019-Fall/tree/master/public_html/bacs350">GitHub Repo</a></h4>       
         <h4><a href="https://shrinking-world.com/unc/bacs350">BACS 350 Home Page</a></h4>       
-        <h4><a href="https://www.sistersimms.com/bacs350/skills/index.php">Laurens Skills Page</a></h4> 
-        <h4><a href="https://www.sistersimms.com/bacs350/docman/index.php">Laurens Docman Page</a></h4>
-        <h4><a href="https://www.sistersimms.com/bacs350/planner/index.php">Laurens Planner Page</a></h4>
-        <h4><a href="https://www.sistersimms.com/bacs350/superhero/index.php">Laurens Superhero Page</a></h4>
-        <h4><a href="https://www.sistersimms.com/bacs350/subscriber/index.php">Laurens Subscriber Page</a></h4>
-        <h4><a href="https://www.sistersimms.com/bacs350/notes/index.php">Laurens Notes Page</a></h4>
+        <h4><a href="https://www.sistersimms.com/bacs350/skills/index.php">Skills Page</a></h4> 
+        <h4><a href="https://www.sistersimms.com/bacs350/docman/index.php">Docman Page</a></h4>
+        <h4><a href="https://www.sistersimms.com/bacs350/planner/index.php">Planner Page</a></h4>
+        <h4><a href="https://www.sistersimms.com/bacs350/superhero/index.php">Superhero Page</a></h4>
+        <h4><a href="https://www.sistersimms.com/bacs350/subscriber/index.php">Subscriber Page</a></h4>
+        <h4><a href="https://www.sistersimms.com/bacs350/notes/index.php">Notes Page</a></h4>
         <h4><a href="demo">Code Demos</a></h4>
         <h4><a href="pattern">Design Patterns</a></h4>
                   
        
-        <table>
+        <table align="center">
           <tr>
             <th>Project</th>
             <th>Link</th>
@@ -115,6 +115,9 @@
             <td>Fri, Nov 29th</td>
           </tr>
         </table>
+        
+        
+        <p>This page was created by Lauren Simms &copy 2019</p>
         
     ';
 
